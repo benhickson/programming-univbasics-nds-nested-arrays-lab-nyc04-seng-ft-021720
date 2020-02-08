@@ -29,13 +29,13 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
   
-  [CONVENTIONAL_PRODUCE.sort,ORGANIC_PRODUCE.sort]
+  # [CONVENTIONAL_PRODUCE.sort,ORGANIC_PRODUCE.sort]
   
-  # sorted = assembled_matrix
-  # sorted.length.times do |index|
-  #   sorted[index] = sorted[index].sort
-  # end
-  # sorted
+  sorted = assembled_matrix
+  sorted.length.times do |index|
+    sorted[index] = sorted[index].sort
+  end
+  sorted
 end
 
 def matrix_lookup(matrix, row, column)
