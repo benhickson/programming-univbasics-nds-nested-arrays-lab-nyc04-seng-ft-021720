@@ -33,7 +33,7 @@ def sorted_matrix
   
   # sorted = assembled_matrix
   # sorted.length.times do |index|
-  #   sorted[index].sort!
+  #   sorted[index] = sorted[index].sort
   # end
   # sorted
 end
